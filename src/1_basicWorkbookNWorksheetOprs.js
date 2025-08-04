@@ -7,15 +7,9 @@ export function basicWorkbookNWorksheetOprs() {
 
   creator = "me";
   lastModifiedBy = "him";
-//   created = new Date().toLocaleDateString("en-US", {                             //? One Method
-//       timeZone: "Asia/karachi"
-//   })
 
-created = `${new Date().toLocaleDateString()}  ${new Date().toLocaleTimeString()}`
-
-
+  created = `${new Date().toLocaleDateString()}  ${new Date().toLocaleTimeString()}`;
 
   //? ================Console logs================
   //* console.log(workbook)
-//      console.log(created, creator, lastModifiedBy);
 }
